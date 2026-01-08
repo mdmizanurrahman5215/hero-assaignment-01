@@ -131,26 +131,30 @@
     line-height: 24px;
     margin-bottom: 32px;
 }
-.hero-button-section{
+
+.hero-button-section {
     justify-content: center;
     display: flex;
     gap: 16px;
 }
-.image{
+
+.image {
     border: none;
     background-color: #30B868;
     border-radius: 4px;
     cursor: pointer;
 }
-.image:hover{
- background-color: #0a612e;
+
+.image:hover {
+    background-color: #0a612e;
 
 }
-.hero-button-section .image img{
-  padding: 16px 20px 16px 30px;
+
+.hero-button-section .image img {
+    padding: 16px 20px 16px 30px;
 }
 
-.hero-button-section button{
+.hero-button-section button {
     background: transparent;
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -161,11 +165,69 @@
     font-weight: 600;
 
 }
-.hero-button-section button:hover{
+
+.hero-button-section button:hover {
     background: #0a612e;
     border: 1px solid #ffffff;
     border-radius: 4px;
     padding: 16px;
     color: white;
 
+}
+
+/* structure section  */
+#structure {
+    width: 100%;
+}
+
+.structure-container {
+    margin: 40px auto;
+}
+
+.structure-container .structure-heading {
+    text-align: center;
+}
+
+.structure-container .structure-heading h1 {
+    font-size: 48px;
+    color: #001931;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.structure-container .structure-heading p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 83px;
+}
+
+.card-content{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+
+}
+.card{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+.card .card-title{
+   font-size: 16px;
+    color: #001931;
+    margin:16px 0;
+}
+.card .card-des{
+    font-size: 16px;
+    color: #627382;
 }

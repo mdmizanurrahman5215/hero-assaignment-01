@@ -191,8 +191,8 @@
 .structure-container .structure-heading h1 {
     font-size: 48px;
     color: #001931;
-    line-height: 24px;
-    margin-bottom: 32px;
+    line-height:24px;
+    margin-bottom:32px;
 }
 
 .structure-container .structure-heading p {
@@ -230,4 +230,58 @@
 .card .card-des{
     font-size: 16px;
     color: #627382;
+}
+
+/* brain sectin  */
+
+#brain{
+    width: 100%;
+}
+.brain-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+.brain-image img{
+    /* width: 100%; */
+    object-fit: cover;
+    object-position: center;
+}
+.brain-content{
+    text-align: left;
+    
+}
+.brain-content > p:first-child{
+    color: #30B868;
+
+}
+.brain-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-content .brain-p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+
+}
+.brain-content ul{
+    list-style: none;
+
+}
+.brain-content ul li{
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+
+}
+.brain-content ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+
 }

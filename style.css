@@ -84,7 +84,7 @@
 }
 
 .hero-container {
-    margin: 180px;
+    margin: 180px auto;
     text-align: center;
     /* border: 1px solid #000; */
 
@@ -138,6 +138,16 @@
     color: #30B868;
 }
 
+/* .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    text-align: center;
+} */
+
 .hero-container h1 {
     font-size: 72px;
     font-weight: bold;
@@ -159,35 +169,33 @@
     margin-bottom: 32px;
 }
 
-.hero-button-section {
+#hero-button-section {
     justify-content: center;
     display: flex;
     gap: 16px;
 }
 
-.image {
+.btn1 {
     border: none;
     background-color: #30B868;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.image:hover {
+.btn1:hover {
     background-color: #0a612e;
    
 
 }
-.image img:hover {
+.btn1 img:hover {
      scale: 1.5;
-   
+   }
 
-}
-
-.hero-button-section .image img {
+#hero-button-section .btn1 img {
     padding: 16px 20px 16px 30px;
 }
 
-.hero-button-section button {
+#hero-button-section .btn2 {
     background: transparent;
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -199,18 +207,18 @@
 
 }
 
-.hero-button-section button i {
+#hero-button-section .btn2 i {
     color: transparent;
     -webkit-text-stroke: 1px white;
 
 
 }
 
-.hero-button-section button:hover {
+#hero-button-section button:hover {
     background: #0a612e;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
     border-radius: 4px;
-    padding: 16px;
+    /* padding: 16px; */
     color: white;
 
 }
